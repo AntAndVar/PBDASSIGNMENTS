@@ -1,0 +1,10 @@
+Error Types
+Syntax: things like punctuation of a program, as an example not putting a semicolon to end a line, or trying to assign a variable
+without the assignment operator of "="
+
+Compile Error (part of syntax and vice versa): when things don't 'add up.' As an example, when you make a variable start with "a"
+but in a function you write it as "A" 
+Logic: when something in a program simply doesn't add up logically. As an example, when to find area you do "length + width"
+instead of "length * width"
+Runtime: when a wrong type of datatype is entered into something, i.e. a string does when a float and/or double should 
+
