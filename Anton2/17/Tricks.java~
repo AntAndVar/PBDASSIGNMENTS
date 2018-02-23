@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Tricks {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Please enter the following information so I can sell it for a profit!");
+
+        System.out.print("First name: "):
+        String firstname = input.next();
+        System.out.print("Last name:");
+        String lastname = input.next();
+        System.out.print("Grade (9-12):");
+        int grade = input.nextInt();
+        System.out.print("Student ID:");
+        int studentId = input.nextInt();
+        System.out.print("Login:");
+        String password = input.next();
+        System.out.print("Average:");
+        int average = input.nextInt();
+        System.out.print("Your information: ");
+        System.out.print("    Login: " + password);
+        System.out.print("    ID: " + studentId);
+        System.out.print("    Name: " + firstname + " " + lastname);
+        System.out.print("    Avg: "  + average);
+        System.out.print("    Grade: " + grade);
+    }
+}
